@@ -1,0 +1,27 @@
+#email {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background: url("/section.png");
+    padding: 2rem 0;
+    width: 100vw;
+}
+
+#email>.input-group {
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    #email {
+        padding: 1.5rem 1rem;
+        text-align: center;
+    }
+
+    .input-group {
+        flex-direction: column;
+        width: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+.card-image {
+    padding: 2rem;
+    background-color: black;
+    border-radius: .5rem;
+}
+
+.card-image>h3 {
+    color: var(--primary-color);
+}
+
+.card-image>h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "sofra",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "animate": "^1.0.0",
+    "bootstrap": "^5.2.0",
+    "classnames": "^2.3.1",
+    "framer-motion": "^4.1.17",
+    "next": "^11.0.1",
+    "react": "17.0.2",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-spring": "^9.2.4",
+    "react-visibility-sensor": "^5.1.1"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.0.1"
+  },
+  "description": "This is a react js template built for restaurants with next.js [Live Preview](https://elated-wing-83e6e2.netlify.app)",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
+}

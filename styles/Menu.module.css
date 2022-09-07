@@ -1,0 +1,27 @@
+#menu>#banner {
+    margin-bottom: 5rem;
+}
+
+#cards {
+    display: flex;
+    gap: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+#cards>.card {
+    flex: 1;
+}
+
+#cards>.card:nth-child(even) {
+    transform: translateY(50px);
+}
+
+@media screen and (max-width: 768px) {
+    #cards {
+        flex-direction: column;
+    }
+
+    #cards>.card:nth-child(even) {
+        transform: translateY(0px);
+    }
+}
