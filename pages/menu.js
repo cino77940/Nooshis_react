@@ -103,37 +103,26 @@ export default function Menu() {
                     </MenuCard>
                     <MenuCard className={styles.card}>
                         <MenuHeader>
-                            <h2>Drinks</h2>
+                            <h2>Boissons</h2>
                             {/* <Image alt="pizza-icon" src="/pizza-icon.png" width="80px" height="80px"/> */}
                         </MenuHeader>
                         <MenuItem 
-                            title="1L Soft Drink"
-                            description="Coke, Pepsi, Dr Pepper, Sprite"
-                            price="1.99"
+                            title="Soft 33cl"
+                            description="Coca Cola, Coca Cherry, Fanta Orange, Fanta Citron, Orangina, Schweppes Agrumes, Ice Tea, Oasis Tropical, Perrier."
+                            price="1.50"
                         />
+            
                         <MenuItem 
-                            title="2L Soft Drink"
-                            description="Coke, Pepsi, Dr Pepper, Sprite."
-                            price="2.50"
-                        />
-                        <MenuItem 
-                            title="250ml Play Energy Drink"
-                            // description="Beef, Sausage, Canadian Bacon, Pepperoni Baked with 
-                            // Red Sauce and Mozzarella Cheese."
+                            title="Mangajo 25cl"            
+                            description="Grenade & Thé Vert, Japanes Yuzu & Lemon"
                             price="0.99"
                         />
                         <MenuItem 
-                            title="500ml Powerade"
-                            // description="Beef, Sausage, Canadian Bacon, Pepperoni Baked with 
-                            // Red Sauce and Mozzarella Cheese."
-                            price="1.55"
+                            title="Eau"
+                            description="Eau"
+                            price="1"
                         />
-                        <MenuItem 
-                            title="500ml Tru Fruit Juice"
-                            // description="Beef, Sausage, Canadian Bacon, Pepperoni Baked with 
-                            // Red Sauce and Mozzarella Cheese."
-                            price="1.55"
-                        />
+                    
                     </MenuCard>
                 </div>
                 <Footer />

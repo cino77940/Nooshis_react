@@ -45,6 +45,12 @@
     color: #fff;
 }
 
+.button {
+    display: flex;
+    gap: 1rem;
+
+}
+
 .showcase>.images {
     flex: 1;
     position: relative;

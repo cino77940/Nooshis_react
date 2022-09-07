@@ -20,6 +20,8 @@ export default function Footer() {
                 <AiFillInstagram style={{ color: "var(--text-gray)" }} size={28} />
                 <FaYoutube style={{ color: "var(--text-gray)" }} size={28} />
             </div>
+
+            <p>Tout droit reservé© - 2022</p>
         </footer>
     )
 }

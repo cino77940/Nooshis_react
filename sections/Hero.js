@@ -32,7 +32,10 @@ export default function Hero() {
                             <li>Week-end : 11h - 14h30 | 18h30 - 23h</li>
                         </ul>
                     </p>
+                    <div className={styles.button}>
                     <PrimaryButton onClick={() => router.push("https://nooshisst.hiboutik.com/food/")}>COMMANDER</PrimaryButton>
+                    <PrimaryButton onClick={() => router.push("https://drive.google.com/file/d/13-QxSLOg5ZJeF4dToUiTfusFcTBk5HP-/view")}>Télécharger le menu</PrimaryButton>
+                    </div>
                 </motion.div>
                 <motion.div className={styles.images} variants={variants}>
                     <div className={styles.image1}></div>

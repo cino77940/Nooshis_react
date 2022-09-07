@@ -33,7 +33,7 @@ const MenuItem = ({
             <p>{description}</p>
         </div>
         <div className={styles.right}>
-            <p>{price}$</p>
+            <p>{price}€</p>
         </div>
     </div>
 )
