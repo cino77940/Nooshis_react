@@ -28,8 +28,8 @@ export default function Hero() {
                             <li>Horaires:</li>
                             <li>Lundi: fermé</li>
                             <li>Mardi à Jeudi : 11h00 - 14h30 | 18h30 - 23h</li>
-                            <li>Vendredi : 18h30 - 23h</li>
-                            <li>Week-end : 11h - 14h30 | 18h30 - 23h</li>
+                            <li>Vendredi: 18h30 - 23h</li>
+                            <li>Week-end: 11h - 14h30 | 18h30 - 23h</li>
                         </ul>
                     </p>
                     <div className={styles.button}>
