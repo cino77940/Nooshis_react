@@ -7,7 +7,7 @@ import styles from './Footer.module.css'
 export default function Footer() {
     return (
         <footer id={styles.footer}>
-            <Image alt="logo" src="/Nooshis.png" width="160" height="160"/>
+            <Image alt="logo" src="/Nooshis.png" width="110" height="110"/>
             <h1>Nooshi's</h1>
             <ul>
                 <li><Link href="/">Acceuil</Link></li>
@@ -21,7 +21,7 @@ export default function Footer() {
                 <FaYoutube style={{ color: "var(--text-gray)" }} size={28} />
             </div>
 
-            <p>Tout droit reservé© - 2022</p>
+            <p>Tout droit reservé © - 2022</p>
         </footer>
     )
 }
