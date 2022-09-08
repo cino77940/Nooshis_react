@@ -12,7 +12,7 @@ export default function Menu() {
     return (
         <Container id={styles.menu}>
             <h3>Menu</h3>
-            <h1>What would you like to eat ?</h1>
+            <h1>Un avant gout</h1>
             <MenuCard>
                 <MenuHeader>
                     <h2>Pizza</h2>
@@ -45,7 +45,7 @@ export default function Menu() {
                     price="9.99"
                 />
             </MenuCard>
-            <PrimaryButton onClick={()=>router.push("/menu")}>View full menu</PrimaryButton>
+            <PrimaryButton onClick={()=>router.push("/menu")}>Menu complet</PrimaryButton>
         </Container>
     )
 }
