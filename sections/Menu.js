@@ -15,7 +15,7 @@ export default function Menu() {
             <h1>Un avant gout</h1>
             <MenuCard>
                 <MenuHeader>
-                    <h2>Les Bowls</h2>
+                    <h2>Bowls</h2>
                     <Image alt="Les Bowls" src="/noodles.jpg" width="75px" height="90px"/>
                 </MenuHeader>
                 <MenuItem 

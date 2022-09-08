@@ -31,7 +31,7 @@ export default function About() {
                         className={styles.text}
                     >
                         <h3>A propos</h3>
-                        <h1>Qui sommes nous ?</h1>
+                        <h1>Notre politique</h1>
                         <p>Nooshi's vous propose une large variété de sushis et des noodles uniquement à base de produits végétaux</p>
                         <strong><p>Depuis 2020</p></strong>
                         <PrimaryButton onClick={()=>router.push("/about")}>En savoir plus</PrimaryButton>
