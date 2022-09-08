@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { FaFacebook, FaYoutube } from 'react-icons/fa'
+import { FaFacebook} from 'react-icons/fa'
+import { FaYoutube } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
 import styles from './Footer.module.css'
 
@@ -16,9 +17,10 @@ export default function Footer() {
                 <li><Link href="/contact">Contact</Link></li>
             </ul>
             <div className={styles.social}>
-                <FaFacebook style={{ color: "var(--text-gray)" }} size={28} />
-                <AiFillInstagram style={{ color: "var(--text-gray)" }} size={28} />
-                <FaYoutube style={{ color: "var(--text-gray)" }} size={28} />
+                
+            {/* <a href="#"><FaFacebook style={{ color: "var(--text-gray)" }} size={28} /></a> */}
+            <a href="https://www.instagram.com/nooshis_ns"><AiFillInstagram style={{ color: "var(--text-gray)" }} size={28} /></a>
+            {/* <a href="#"><FaYoutube style={{ color: "var(--text-gray)" }} size={28} /></a> */}
             </div>
 
             <p>Tout droit reservé © - 2022</p>
