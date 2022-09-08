@@ -4,6 +4,7 @@ import NavbarSection from './NavbarSection'
 import { PrimaryButton } from '../components/Button'
 import { motion } from 'framer-motion'
 import styles from './Hero.module.css'
+import { FaRegClock } from 'react-icons/fa'
 
 export default function Hero() {
 
@@ -25,7 +26,7 @@ export default function Hero() {
                     <p>SERVICE DE LIVRAISON & RETRAIT À EMPORTER</p>
                     <p>  
                         <ul>
-                            <li>Horaires:</li>
+                            <li><FaRegClock style={{ color: "var(--text-gray)" }} size={28} /></li>
                             <li>Lundi: fermé</li>
                             <li>Mardi à Jeudi : 11h00 - 14h30 | 18h30 - 23h</li>
                             <li>Vendredi: 18h30 - 23h</li>
