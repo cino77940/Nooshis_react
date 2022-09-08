@@ -15,34 +15,28 @@ export default function Menu() {
             <h1>Un avant gout</h1>
             <MenuCard>
                 <MenuHeader>
-                    <h2>Pizza</h2>
-                    <Image alt="pizza-icon" src="/pizza-icon.png" width="80px" height="80px"/>
+                    <h2>Les Bowls</h2>
+                    <Image alt="Les Bowls" src="/noodles.jpg" width="75px" height="90px"/>
                 </MenuHeader>
                 <MenuItem 
-                    title="Meatza"
-                    description="Beef, Sausage, Canadian Bacon, Pepperoni Baked with 
-                    Red Sauce and Mozzarella Cheese."
-                    price="12.99"
+                    title="Noodles Poulet"
+                    description="Un mélange de nouilles, de légumes et de poulet"
+                    price="9.50"
                 />
                 <MenuItem 
-                    title="Club"
-                    description="Ham, bacon, chicken, Debonairs sauce."
-                    price="11.99"
+                    title="Pokebowl Thon"
+                    description=" Un mélange de riz, de légumes et de thon frais"
+                    price="14.90"
                 />
                 <MenuItem 
-                    title="Four Seasons"
-                    description="Pepperoni, mushroom, olives, green pepper, onion"
-                    price="10.99"
+                    title="Donburi Boeuf"
+                    description="Un mélange de riz, de légumes et de boeuf"
+                    price="12.90"
                 />
                 <MenuItem 
-                    title="3 Cheese"
-                    description="Mozzarella, cheddar, feta, sweet bell pepper, spring onion"
-                    price="10.99"
-                />
-                <MenuItem 
-                    title="Margherita"
-                    description="Special blend of tomato & herb pizza sauce & mozzarella cheese"
-                    price="9.99"
+                    title="Chirashi saumon"
+                    description="Un mélange de riz, de légumes et de saumon"
+                    price="11.90"
                 />
             </MenuCard>
             <PrimaryButton onClick={()=>router.push("/menu")}>Menu complet</PrimaryButton>

@@ -12,93 +12,144 @@ export default function Menu() {
             <Container>
                 <NavbarSection></NavbarSection>
             </Container>
-            <Banner id={styles.banner} background="/restaurant-bg.png" text="Menu" />
+            <Banner id={styles.banner} background="/restaurant-bg.png" text="La Carte" />
             <Container>
                 <div id={styles.cards}>
                     <MenuCard className={styles.card}>
                         <MenuHeader>
-                            <h2>Pizza</h2>
-                            {/* <Image alt="pizza-icon" src="/pizza-icon.png" width="80px" height="80px"/> */}
+                            <h2>Noodles</h2>
+                            <Image alt="Noodles" src="/noodles.jpg" width="75px" height="85px"/>
                         </MenuHeader>
                         <MenuItem 
-                            title="Meatza"
-                            description="Beef, Sausage, Canadian Bacon, Pepperoni Baked with 
-                            Red Sauce and Mozzarella Cheese."
-                            price="12.99"
+                            title="Poulet"
+                            price="9.50"
                         />
                         <MenuItem 
-                            title="Club"
-                            description="Ham, bacon, chicken, Debonairs sauce."
-                            price="11.99"
+                            title="Poulet Pané"
+                            price="10.50"
                         />
                         <MenuItem 
-                            title="Four Seasons"
-                            description="Pepperoni, mushroom, olives, green pepper, onion"
-                            price="10.99"
+                            title="Saumon"
+                            price="9.90"
                         />
                         <MenuItem 
-                            title="3 Cheese"
-                            description="Mozzarella, cheddar, feta, sweet bell pepper, spring onion"
-                            price="10.99"
+                            title="Spicy Saumon"
+                            price="10.50"
                         />
                         <MenuItem 
-                            title="Margherita"
-                            description="Special blend of tomato & herb pizza sauce & mozzarella cheese"
-                            price="9.99"
+                            title="Boeuf"
+                            price="11.50"
                         />
+
                     </MenuCard>
+                    
                     <MenuCard className={styles.card}>
                         <MenuHeader>
-                            <h2>Special</h2>
-                            {/* <Image alt="pizza-icon" src="/pizza-icon.png" width="80px" height="80px"/> */}
+                            <h2>Donburi</h2>
+                            <Image alt="Donburi" src="/donburi.jpg" width="75px" height="85px"/>
                         </MenuHeader>
                         <MenuItem 
-                            title="CRAM-DECKER"
-                            description="Three layers & a crust crammed with chicken cheese grillers: our secret cream cheese, ham, spare rib, diced tomato, onion, mozzarella, tomato & herb pizza sauce, BBQ sauce, topped with Debonairs sauce, cheddar & mozzarella."
-                            price="18.99"
+                            title="Légumes"
+                            price="9.90"
                         />
                         <MenuItem 
-                            title="TRIPLE-DECKER"
-                            description="Three layers & a crust crammed with chicken cheese grillers: our secret cream cheese, chicken, mushroom, diced tomato, onion, mozzarella, tomato & herb pizza sauce, topped with Debonairs sauce, cheddar & mozzarella"
-                            price="18.99"
+                            title="Poulet Pané"
+                            price="11.90"
                         />
                         <MenuItem 
-                            title="CRAMMED-CRUST"
-                            description="The crust crammed with chicken cheese grillers & the pizza topped with tomato & herb pizza sauce, chicken, mushroom, diced tomato, onion, Debonairs sauce, mozzarella & spring onion."
-                            price="20.99"
+                            title="Saumon"
+                            price="12.50"
+                        />
+                        <MenuItem 
+                            title="Boeuf"
+                            price="12.90"
+                        />
+                        <MenuItem 
+                            title="Spécial Donburi"
+                            price="13.50"
+                        />
+                    </MenuCard>
+               
+                    <MenuCard className={styles.card}>
+                        <MenuHeader>
+                            <h2>Pokebowl</h2>
+                            <Image alt="Donburi" src="/donburi.jpg" width="75px" height="85px"/>
+                        </MenuHeader>
+                        <MenuItem 
+                            title="Boeuf"
+                            price="13.90"
+                        />
+                        <MenuItem 
+                            title="Poulet"
+                            price="11.90"
+                        />
+                        <MenuItem 
+                            title="Saumon"
+                            price="12.90"
+                        />
+                        <MenuItem 
+                            title="Spicy Saumon"
+                            price="13.50"
+                        />
+                        <MenuItem 
+                            title="Thon"
+                            price="14.90"
+                        />
+                        <MenuItem 
+                            title="Thon Mayo"
+                            price="10.90"
+                        />
+                        <MenuItem 
+                            title="Veggie"
+                            price="8.90"
                         />
                     </MenuCard>
                 </div>
+
                 <div id={styles.cards}>
                     <MenuCard className={styles.card}>
                         <MenuHeader>
-                            <h2>Sides</h2>
-                            {/* <Image alt="pizza-icon" src="/pizza-icon.png" width="80px" height="80px"/> */}
+                            <h2>Sashimi</h2>
+                            <Image alt="Sashimi" src="/sashimi.jpg" width="80px" height="80px"/>
+                            <h4>X6 X12</h4>
+
                         </MenuHeader>
                         <MenuItem 
-                            title="Death By Chocolate"
-                            description="Warm chocolate pudding. Serves 4."
-                            price="3.99"
+                            title="Saumon"
+                            price="6.00€ / 11.00"
                         />
                         <MenuItem 
-                            title="BBQ Chicken Wings"
-                            description="6 Winglets per portion."
-                            price="4.99"
+                            title="Tataki Saumon"
+                            price="6.50€ / 12.00"
                         />
                         <MenuItem 
-                            title="Cheese & Garlic Focaccia"
-                            description="Large (30cm) pizza base with garlic spread & half mozzarella cheese."
-                            price="6.99"
+                            title="Thon"
+                            price="7.00€ / 13.50"
                         />
                         <MenuItem 
-                            title="Cocktail Cheese Grillers"
-                            description="10 Per portion."
-                            price="4.99"
+                            title="Tataki Thon"
+                            price="7.50€ / 13.90"
+                        />
+                    </MenuCard>
+
+
+                    <MenuCard className={styles.card}>
+                        <MenuHeader>
+                            <h2>SpecialRoll</h2>
+                            <Image alt="Specialroll" src="/specialroll.png" width="120px" height="120px"/>
+
+                        </MenuHeader>
+                        <MenuItem 
+                            title="W Dragon"
+                            price="9.90"
                         />
                         <MenuItem 
-                            title="Turn Up The Heat"
-                            description="Crushed chilli in a tub."
-                            price="2.99"
+                            title="W Tiger"
+                            price="9.90"
+                        />
+                        <MenuItem 
+                            title="Crispy Dragon"
+                            price="9.90"
                         />
                     </MenuCard>
                     <MenuCard className={styles.card}>

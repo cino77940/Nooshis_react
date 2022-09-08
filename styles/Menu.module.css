@@ -12,10 +12,6 @@
     flex: 1;
 }
 
-#cards>.card:nth-child(even) {
-    transform: translateY(50px);
-}
-
 @media screen and (max-width: 768px) {
     #cards {
         flex-direction: column;
