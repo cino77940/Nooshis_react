@@ -104,14 +104,14 @@
     }
 
     .showcase>.text>h1 {
-        font-size: 3em;
+        font-size: 2rem;
         text-align: center;
     }
 
     .showcase>.text>p {
         width: 100%;
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 1rem;
 }
 
     .showcase>.text>button {
@@ -126,10 +126,10 @@
 
     .showcase>.images>.image1 {
         display: none;
-        margin-bottom: -100px;
+        margin-bottom: 100px;
     }
 
     #hero {
-        margin-bottom: -300px;
+        margin-bottom: -240px;
     }
 }
