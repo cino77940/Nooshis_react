@@ -100,6 +100,7 @@
 
     .showcase>.text {
         padding: 1rem 0;
+        flex: 0;
     }
 
     .showcase>.text>h1 {
@@ -114,7 +115,21 @@
 
     .showcase>.text>button {
         width: 50%;
+        
+    }
+
+    .showcase>div>.button{
         margin: 0 auto;
+        text-align: center ;
     }
-    
+
+    .showcase>.images {
+        display: none;
     }
+
+    #hero {
+        /* disable height */
+        height: 600px;
+        
+    }
+}
