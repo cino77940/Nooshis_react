@@ -13,9 +13,7 @@ export default function NavbarSection () {
                 <Image alt="logo" src="/Nooshis.png" width="60" height="60"/>
                 <h1>Nooshi's</h1>
             </NavHeader>
-            <NavMenu>
-                {/* <NavItem href="/">Home</NavItem> */}
-                
+            <NavMenu>                
                 <NavItem href="/menu">Menu</NavItem>
                 <NavItem href="/contact">Contact</NavItem>
                 <NavItem href="/about">A Propos</NavItem>
