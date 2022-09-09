@@ -34,7 +34,7 @@ export default function Hero() {
                         </ul>
                     </p>
                     <div className={styles.button}>
-                    <PrimaryButton onClick={() => router.push("https://nooshisst.hiboutik.com/food/")}>COMMANDER</PrimaryButton>
+                    <PrimaryButton onClick={() => router.push("https://nooshisst.hiboutik.com/food/")}>Commander</PrimaryButton>
                     <PrimaryButton onClick={() => router.push("https://drive.google.com/file/d/13-QxSLOg5ZJeF4dToUiTfusFcTBk5HP-/view")}>Télécharger le menu</PrimaryButton>
                     </div>
                 </motion.div>

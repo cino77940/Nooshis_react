@@ -40,7 +40,7 @@
     width: 30%;
 }
 
-.text>button:hover {
+.text>.button>button:hover {
     background-color: #907230;
     color: #fff;
 }
