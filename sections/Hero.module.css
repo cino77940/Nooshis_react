@@ -24,6 +24,10 @@
     text-align: left;
 }
 
+.clock {
+    margin-bottom: 10px;
+    }
+
 .text>p {
     font-size: 1.25em;
     width: 60%;
