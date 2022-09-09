@@ -20,9 +20,9 @@ export default function Home() {
 
             <main id={styles.main}>
                 <Hero />
+                <About />
                 <GallerySection />
                 <Menu />
-                <About />
                 <EmailList />
                 <ContactSection />
                 <Footer />
