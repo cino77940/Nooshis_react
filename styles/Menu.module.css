@@ -21,3 +21,13 @@
         transform: translateY(0px);
     }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+    #cards {
+        flex-direction: column;
+    }
+
+    #cards>.card:nth-child(even) {
+        transform: translateY(0px);
+    }
+}

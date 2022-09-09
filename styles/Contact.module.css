@@ -27,6 +27,13 @@
     gap: .5rem;
 }
 
+.info>.cell>iframe {
+    width: 1200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
 #form>form {
     display: flex;
     flex-direction: column;
@@ -62,4 +69,28 @@ form>.row {
         flex-direction: column;
     }
 
+    .info>.cell>iframe {
+        width: 90%;
+        height: 200px;
+        border-radius: 15px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+    .info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    form>.row {
+        flex-direction: column;
+    }
+
+    .info>.cell>iframe {
+        width: 90%;
+        height: 200px;
+        border-radius: 15px;
+        margin-top: 30px;
+    }
 }
