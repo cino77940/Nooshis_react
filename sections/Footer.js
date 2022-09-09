@@ -8,8 +8,7 @@ import styles from './Footer.module.css'
 export default function Footer() {
     return (
         <footer id={styles.footer}>
-            <Image alt="logo" src="/Nooshis.png" width="110" height="110"/>
-            <h1>Nooshi's</h1>
+            <Image alt="logo" src="/Nooshis.png" width="270" height="60"/>
             <ul>
                 <li><Link href="/">Acceuil</Link></li>
                 <li><Link href="/about">A Propos</Link></li>

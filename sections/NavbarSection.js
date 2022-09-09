@@ -10,8 +10,7 @@ export default function NavbarSection () {
     return (
         <Navbar>
             <NavHeader href="/">
-                <Image alt="logo" src="/Nooshis.png" width="60" height="60"/>
-                <h1>Nooshi's</h1>
+                <Image alt="logo" src="/Nooshis.png" width="270" height="60"/>
             </NavHeader>
             <NavMenu>                
                 <NavItem href="/menu">Menu</NavItem>

@@ -21,6 +21,7 @@
     font-size: 1.1em;
     font-weight: 600;
     cursor: pointer;
+    margin-top: 5%;
 }
 
 #footer>.social {
@@ -34,17 +35,14 @@
     #footer {
         padding: 2rem 0 2rem 0;
     }
-    #footer>h1 {
-        font-size: 2rem;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-    }
+    
     #footer>ul {
         flex-direction: wrap;
         gap: 1rem;
     }
     #footer>ul>li {
-        font-size: 1em;
+        font-size: 1rem;
+        margin-top: 5%;
     }
     #footer>.social {
         width: 100px;
