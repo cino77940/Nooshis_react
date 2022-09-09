@@ -100,12 +100,13 @@
     }
 
     .showcase>.text {
-        padding: 1rem 0;
-        flex: 0;
+        margin-top: 15%;
+        padding: 2rem 0;
+        flex: 2;
     }
 
     .showcase>.text>h1 {
-        font-size: 2rem;
+        font-size: 2.4rem;
         text-align: center;
     }
 
@@ -133,6 +134,10 @@
     #hero {
         margin-bottom: -240px;
     }
+
+    .clock {
+    margin-bottom: 10px;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
@@ -141,12 +146,13 @@
     }
 
     .showcase>.text {
+        margin-top: 10%;
         padding: 1rem 0;
         flex: 0;
     }
 
     .showcase>.text>h1 {
-        font-size: 3rem;
+        font-size: 5rem;
         text-align: center;
     }
 
@@ -173,4 +179,8 @@
     #hero {
         margin-bottom: -240px;
     }
+
+    .clock {
+        margin-bottom: 10px;
+        }
 }

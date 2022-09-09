@@ -37,10 +37,11 @@
 @media screen and (max-width: 768px) {
     #about {
         flex-direction: column;
+        margin-top: 20%;
     }
 
     #about>.text {
-        padding: 1rem;
+        padding: 2rem;
         text-align: center;
     }
 
@@ -56,16 +57,21 @@
 @media screen and (min-width: 769px) and (max-width: 1280px) {
     #about {
         flex-direction: column;
-        margin-top: 10%;
+        margin-top: 15%;
     }
 
     #about>.text {
-        padding: 1rem;
+        padding: 2rem;
         text-align: center;
     }
 
     .text>h1 {
         font-size: 2.5rem;
+    }
+
+    .text>p {
+        text-align: center;
+        font-size: 1.2rem;
     }
 
     #about>.image {
