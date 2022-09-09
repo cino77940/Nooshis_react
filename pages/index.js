@@ -20,10 +20,10 @@ export default function Home() {
 
             <main id={styles.main}>
                 <Hero />
+                <GallerySection />
+                <Menu />
                 <About />
                 <EmailList />
-                <Menu />
-                <GallerySection />
                 <ContactSection />
                 <Footer />
             </main>

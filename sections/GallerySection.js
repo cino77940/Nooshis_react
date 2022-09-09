@@ -1,6 +1,7 @@
 import Container from '../components/Container'
 import Gallery from '../components/Gallery'
 import styles from './GallerySection.module.css'
+import { PrimaryButton } from '../components/Button'
 
 export default function GallerySection() {
     return (

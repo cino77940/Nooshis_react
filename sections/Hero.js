@@ -21,7 +21,9 @@ export default function Hero() {
                 transition={{ stiffness: 10000, delayChildren: .1, staggerChildren: .25 }}
                 className={styles.showcase}
             >
+            
                 <motion.div className={styles.text} variants={variants}>
+                
                     <h1>Noodles & Sushis</h1>
                     <p>SERVICE DE LIVRAISON & RETRAIT À EMPORTER</p>
                     <p>  

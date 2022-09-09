@@ -20,14 +20,14 @@ export default function About() {
                         variants={variants1}
                         initial="initial"
                         animate={ animated ? "animate": "initial"}
-                        transition={{ stiffness: 1000 }}
+                        transition={{ stiffness: 500 }}
                         className={styles.image}
                     ></motion.div>
                     <motion.div 
                         variants={variants2}
                         initial="initial"
                         animate={ animated ? "animate": "initial"}
-                        transition={{ stiffness: 1000 }}
+                        transition={{ stiffness: 500 }}
                         className={styles.text}
                     >
                         <h3>A propos</h3>
