@@ -33,9 +33,10 @@ export default function About() {
                     <div className={styles.cell}>
                         <HiLocationMarker size={28} />
                         <p>5 Rue du Dr Arthur Petit, 77130 Montereau-Fault-Yonne</p>
-                        
                     </div>
+                </div>
 
+                <div className={styles.info}>
                     <div className={styles.cell}>
                         <AiFillPhone size={28} />
                         <a href="tel:0175158084">01 75 15 80 84</a>
