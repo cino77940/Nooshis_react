@@ -81,13 +81,13 @@
 .image1 {
     position: absolute;
     left: 0;
-    top: 10%;
+    top: 20%;
     width: 100%;
-    height: 60%;
+    height: 100%;
     background-image: url("/NooshisHome.png");
-    background-position: center;
+    background-position: cover;
     background-repeat: no-repeat;
-    background-size: 98%;
+    background-size: 100%;
 
     animation: image1 2s;
     animation-iteration-count: infinite;
