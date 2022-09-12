@@ -40,7 +40,7 @@ export default function Menu() {
                     price="11.90"
                 />
             </MenuCard>
-            {/* <PrimaryButton onClick={()=>router.push("/menu")}>Vois plus</PrimaryButton> */}
+            <PrimaryButton onClick={()=>router.push("/menu")}>Vois plus</PrimaryButton>
         </Container>
     )
 }
