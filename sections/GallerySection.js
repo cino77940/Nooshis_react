@@ -9,6 +9,8 @@ export default function GallerySection() {
             <h3>Galerie</h3>
             <h1>Nos plats</h1>
             <Gallery id={styles.images}/>
+            <PrimaryButton onClick={()=>router.push("/menu")}>Menu complet</PrimaryButton>
+
         </Container>
     )
 }
