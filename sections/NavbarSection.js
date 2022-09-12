@@ -13,7 +13,7 @@ export default function NavbarSection () {
                 <Image alt="logo" src="/Nooshis.png" width="270" height="60"/>
             </NavHeader>
             <NavMenu>                
-                <NavItem href="/menu">Menu</NavItem>
+                <NavItem href="/menu">La Carte</NavItem>
                 <NavItem href="/contact">Contact</NavItem>
                 <NavItem href="/about">A Propos</NavItem>
             </NavMenu>
@@ -30,7 +30,7 @@ export default function NavbarSection () {
                         transition={{ stiffness: 1000 }}
                     >
                         <NavItem href="/about">A Propos</NavItem>
-                        <NavItem href="/menu">Menu</NavItem>
+                        <NavItem href="/menu">La Carte</NavItem>
                         <NavItem href="/contact">Contact</NavItem>
                     </MotionResponsiveNavMenu>
                 ) }

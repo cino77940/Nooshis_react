@@ -37,7 +37,7 @@ export default function Hero() {
                     </p>
                     <div className={styles.button}>
                     <PrimaryButton onClick={() => router.push("https://nooshisst.hiboutik.com/food/")}>Commander</PrimaryButton>
-                    <PrimaryButton onClick={() => router.push("https://drive.google.com/file/d/13-QxSLOg5ZJeF4dToUiTfusFcTBk5HP-/view")}>Télécharger le menu</PrimaryButton>
+                    <PrimaryButton onClick={() => router.push("https://drive.google.com/file/d/13-QxSLOg5ZJeF4dToUiTfusFcTBk5HP-/view")}>Télécharger la carte</PrimaryButton>
                     </div>
                 </motion.div>
                 <motion.div className={styles.images} variants={variants}>
