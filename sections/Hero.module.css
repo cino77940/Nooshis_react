@@ -23,6 +23,9 @@
     line-height: 4.4rem;
     text-align: left;
 }
+.text>h1::first-letter {
+    color: var(--primary-color)
+}
 
 .clock {
     margin-bottom: 10px;

@@ -136,7 +136,7 @@ export default function Menu() {
                     <MenuCard className={styles.card}>
                         <MenuHeader>
                             <h2>SpecialRoll</h2>
-                            <Image alt="Specialroll" src="/specialroll.png" width="120px" height="120px"/>
+                            <Image alt="Specialroll" src="/specialroll.png" width="80px" height="80px"/>
 
                         </MenuHeader>
                         <MenuItem 
@@ -155,7 +155,7 @@ export default function Menu() {
                     <MenuCard className={styles.card}>
                         <MenuHeader>
                             <h2>Boissons</h2>
-                            {/* <Image alt="pizza-icon" src="/pizza-icon.png" width="80px" height="80px"/> */}
+                            <Image alt="pizza-icon" src="/soda.png" width="50px" height="60px"/>
                         </MenuHeader>
                         <MenuItem 
                             title="Soft 33cl"

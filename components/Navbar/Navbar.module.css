@@ -6,6 +6,10 @@
     height: 80px;
 }
 
+.navbar>.nav-menu>::first-letter {
+    color: var(--primary-color)
+}
+
 .navbar>.nav-header {
     display: flex;
     align-items: center;
