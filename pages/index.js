@@ -26,6 +26,7 @@ export default function Home() {
                 <EmailList />
                 <ContactSection />
                 <Footer />
+            
             </main>
         </div>
     )

@@ -6,11 +6,9 @@ import { PrimaryButton } from '../components/Button'
 export default function GallerySection() {
     return (
         <Container id={styles.gallery}>
-            <h3>Galerie</h3>
+            <h3>Album</h3>
             <h1>Nos plats</h1>
             <Gallery id={styles.images}/>
-            {/* <PrimaryButton onClick={()=>router.push("/menu")}>Menu complet</PrimaryButton> */}
-
         </Container>
     )
 }
