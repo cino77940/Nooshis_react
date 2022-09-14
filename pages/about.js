@@ -2,7 +2,6 @@ import Container from '../components/Container'
 import Banner from '../sections/Banner'
 import ImageText from '../sections/ImageText'
 import NavbarSection from '../sections/NavbarSection'
-import Album from '../sections/Album'
 import Footer from '../sections/Footer'
 import Head from 'next/head'
 import styles from '../styles/About.module.css'
@@ -31,7 +30,6 @@ export default function About() {
                     <h1>Cuisine à la demande</h1>
                     <p>Des plats élaborés avec des produits frais et cuisiné à la demande</p>
                 </ImageText>
-                <Album />
                 <Footer />
             </Container>
         </div>
